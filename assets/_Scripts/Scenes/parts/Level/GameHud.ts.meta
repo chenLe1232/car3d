@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "a03018e8-1ce3-4055-9999-9843c257d1cf",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/_Scripts/Scenes/parts/Level/GameHud.js"
+  }
+}

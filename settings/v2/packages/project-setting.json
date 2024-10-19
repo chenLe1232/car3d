@@ -1,0 +1,24 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 750,
+      "height": 1334,
+      "fitWidth": true,
+      "fitHeight": false
+    }
+  },
+  "layer": [
+    {
+      "name": "Item",
+      "value": 1
+    },
+    {
+      "name": "CarCollider",
+      "value": 2
+    },
+    {
+      "name": "Player",
+      "value": 4
+    }
+  ]
+}

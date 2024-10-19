@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.Material",
+  "_name": "Gear_Mat_09",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "metallic": 0,
+      "roughness": 0.5527864098548889,
+      "mainTexture": {
+        "__uuid__": "cb0fa1e7-a0fa-4eda-9211-38497439a59a@3effa"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "57d1faa6-5eac-4b4a-b365-4b80f7a7880a",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/_Scripts/Common/FizzX/shapes.js"
+  }
+}

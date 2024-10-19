@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.Material",
+  "_name": "magnet",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "metallic": 0,
+      "roughness": 0.5,
+      "mainTexture": {
+        "__uuid__": "71f8670f-1dcd-4b52-90bc-e3f8f9e8dec8@e39f7"
+      }
+    }
+  ]
+}

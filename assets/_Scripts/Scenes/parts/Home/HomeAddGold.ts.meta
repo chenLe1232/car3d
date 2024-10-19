@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "5ddb1c0c-4748-449a-9230-cb028f4f61ed",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/_Scripts/Scenes/parts/Home/HomeAddGold.js"
+  }
+}

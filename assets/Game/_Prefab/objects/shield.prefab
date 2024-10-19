@@ -1,0 +1,208 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "shield",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 6
+      }
+    ],
+    "_prefab": {
+      "__id__": 7
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0.7071068407911907,
+      "y": 0,
+      "z": 0,
+      "w": 0.7071067215818994
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 0.19999999552965164,
+      "y": 0.19999999552965167,
+      "z": 0.19999999552965167
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 90.0000096593463,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Quad",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": -95.485
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0.7071067811865475,
+      "y": 0,
+      "z": 0,
+      "w": 0.7071067811865476
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 300,
+      "y": 300,
+      "z": 200
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 90,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "Quad<MeshRenderer>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "b650ff88-3a8e-48e8-b7f4-205451d41c8a"
+      }
+    ],
+    "_visFlags": 0,
+    "_mesh": {
+      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+    },
+    "_shadowCastingMode": 0,
+    "_id": "",
+    "__prefab": {
+      "__id__": 8
+    }
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "Quad<Animation>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "playOnLoad": true,
+    "_clips": [
+      {
+        "__uuid__": "618ee2e0-fb92-4a55-8e76-ec3e91090313"
+      }
+    ],
+    "_defaultClip": {
+      "__uuid__": "618ee2e0-fb92-4a55-8e76-ec3e91090313"
+    },
+    "_id": "",
+    "__prefab": {
+      "__id__": 9
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "721l8/7spI7aguKt+ZeHFp"
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "shield<MeshRenderer>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "0ecf34e7-de76-4fe6-8ae2-997a97f6b029"
+      }
+    ],
+    "_visFlags": 0,
+    "_mesh": {
+      "__uuid__": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@da6f3"
+    },
+    "_shadowCastingMode": 0,
+    "_id": "",
+    "__prefab": {
+      "__id__": 10
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "7dch62bRJCcLEbcGc1Sgd+"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "bfSCLEJmhLdK/WJU1df7GW"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "8eq5eSjHNK0rfoJ9oBW5V7"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "d6zTU2wnhLhLarVki9KsHc"
+  }
+]

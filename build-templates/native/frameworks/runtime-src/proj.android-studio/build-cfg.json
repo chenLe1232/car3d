@@ -1,0 +1,8 @@
+{
+    "ndk_module_path" :[
+        "C:/CocosDashboard_1.0.6/resources/.editors/Creator3D/1.1.0/resources/resources/3d/cocos2d-x-lite",
+        "C:/CocosDashboard_1.0.6/resources/.editors/Creator3D/1.1.0/resources/resources/3d/cocos2d-x-lite/cocos",
+        "C:/CocosDashboard_1.0.6/resources/.editors/Creator3D/1.1.0/resources/resources/3d/cocos2d-x-lite/external"
+    ],
+    "copy_resources": []
+}

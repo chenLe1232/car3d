@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "0d65837b-6ab5-40df-8fcc-ff3c24957381",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/_Scripts/Common/MergeFramework/InfoCar.js"
+  }
+}

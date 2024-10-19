@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "250d3bda-e096-4f51-b7d4-543b80ff6d6c",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/framework3D/extension/qanim/AutoRotateComp.js"
+  }
+}

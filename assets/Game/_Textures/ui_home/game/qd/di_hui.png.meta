@@ -1,0 +1,82 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "845fcedb-cb18-4695-8683-f123d897f709",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "845fcedb-cb18-4695-8683-f123d897f709@6c48a",
+      "displayName": "di_hui",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "845fcedb-cb18-4695-8683-f123d897f709"
+      }
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "845fcedb-cb18-4695-8683-f123d897f709@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 78,
+        "height": 76,
+        "rawWidth": 78,
+        "rawHeight": 76,
+        "borderTop": 15,
+        "borderBottom": 12,
+        "borderLeft": 15,
+        "borderRight": 15,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "845fcedb-cb18-4695-8683-f123d897f709@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "di_hui",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "845fcedb-cb18-4695-8683-f123d897f709@f9941",
+    "hasAlpha": true
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "b5096aee-3c25-4029-a130-96feba371347",
+  "files": [],
+  "subMetas": {
+    "db9ab": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "b5096aee-3c25-4029-a130-96feba371347@db9ab",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "db9ab",
+      "name": "Cylinder.008.mesh"
+    },
+    "0842b": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "b5096aee-3c25-4029-a130-96feba371347@0842b",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "0842b",
+      "name": "Cube.017.mesh"
+    },
+    "c0364": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "b5096aee-3c25-4029-a130-96feba371347@c0364",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "c0364",
+      "name": "Cylinder.000.mesh"
+    },
+    "312cf": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "b5096aee-3c25-4029-a130-96feba371347@312cf",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "312cf",
+      "name": "PaletteTextureUltra.image"
+    },
+    "e39f7": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "b5096aee-3c25-4029-a130-96feba371347@e39f7",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b5096aee-3c25-4029-a130-96feba371347@312cf"
+      },
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture"
+    },
+    "e1ccf": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "b5096aee-3c25-4029-a130-96feba371347@e1ccf",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "e1ccf",
+      "name": "heli3.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "PaletteTextureUltra",
+        "uri": "b5096aee-3c25-4029-a130-96feba371347@312cf"
+      }
+    ],
+    "redirect": "b5096aee-3c25-4029-a130-96feba371347@e1ccf",
+    "assetFinder": {
+      "meshes": [
+        "b5096aee-3c25-4029-a130-96feba371347@db9ab",
+        "b5096aee-3c25-4029-a130-96feba371347@0842b",
+        "b5096aee-3c25-4029-a130-96feba371347@c0364"
+      ],
+      "skeletons": [],
+      "textures": [
+        "b5096aee-3c25-4029-a130-96feba371347@e39f7"
+      ],
+      "materials": [
+        "b9e2ace1-bffa-49bc-abab-c975d032f434"
+      ],
+      "scenes": [
+        "b5096aee-3c25-4029-a130-96feba371347@e1ccf"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Game/_Model/Materials_heli3"
+  }
+}

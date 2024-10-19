@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "9bad897d-f218-4c1f-a395-fda79682bfca",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/_Scripts/UI/UIUnlockNew.js"
+  }
+}

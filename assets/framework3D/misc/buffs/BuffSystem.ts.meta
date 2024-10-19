@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "dd644f64-33e6-498f-a3eb-4aab8e38e648",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/framework3D/misc/buffs/BuffSystem.js"
+  }
+}

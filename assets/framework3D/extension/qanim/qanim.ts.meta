@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "2736a0f8-d0a1-4f8d-9010-6759559572f2",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/framework3D/extension/qanim/qanim.js"
+  }
+}

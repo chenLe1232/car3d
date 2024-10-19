@@ -1,0 +1,15 @@
+{
+  "ver": "2.0.14",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "777e892d-c92c-4ed7-87f0-688aa9598269",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Script/zzsdk/zzsdkui_item.js"
+  }
+}

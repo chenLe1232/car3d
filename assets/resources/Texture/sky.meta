@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "ecff38ce-a25f-4a02-98a9-b42facc351a0",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isSubpackage": false,
+    "subpackageName": "sky",
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

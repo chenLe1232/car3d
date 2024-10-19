@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "b1ddc1a9-17cd-49df-845c-cdaadc13924a",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isSubpackage": true,
+    "subpackageName": "tex_env",
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

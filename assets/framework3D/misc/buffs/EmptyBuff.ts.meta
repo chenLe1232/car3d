@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "1ea8533b-f081-4a04-a3c2-4a01f2814104",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/framework3D/misc/buffs/EmptyBuff.js"
+  }
+}

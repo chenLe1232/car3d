@@ -1,0 +1,82 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "5387e2a3-891a-422d-91f7-a1d82f7648ba",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "5387e2a3-891a-422d-91f7-a1d82f7648ba@6c48a",
+      "displayName": "button_blue",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5387e2a3-891a-422d-91f7-a1d82f7648ba"
+      }
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "5387e2a3-891a-422d-91f7-a1d82f7648ba@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 81,
+        "height": 98,
+        "rawWidth": 81,
+        "rawHeight": 98,
+        "borderTop": 24,
+        "borderBottom": 33,
+        "borderLeft": 23,
+        "borderRight": 22,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5387e2a3-891a-422d-91f7-a1d82f7648ba@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "button_blue",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "5387e2a3-891a-422d-91f7-a1d82f7648ba@f9941",
+    "hasAlpha": true
+  }
+}

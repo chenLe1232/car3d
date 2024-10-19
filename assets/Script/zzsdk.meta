@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "3643146b-fe0d-47a9-8154-4e70495245cd",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isSubpackage": true,
+    "subpackageName": "zzsdk",
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

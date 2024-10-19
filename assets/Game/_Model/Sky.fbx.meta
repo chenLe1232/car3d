@@ -1,0 +1,62 @@
+{
+  "ver": "2.0.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f2b3bf35-a7c5-4958-bd66-0f033075b936",
+  "files": [],
+  "subMetas": {
+    "51e08": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f2b3bf35-a7c5-4958-bd66-0f033075b936@51e08",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "51e08",
+      "name": "Sky.mesh"
+    },
+    "d5a11": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "f2b3bf35-a7c5-4958-bd66-0f033075b936@d5a11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "d5a11",
+      "name": "Sky.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "f2b3bf35-a7c5-4958-bd66-0f033075b936@d5a11",
+    "assetFinder": {
+      "meshes": [
+        "f2b3bf35-a7c5-4958-bd66-0f033075b936@51e08"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "132e1e31-65b5-4c6d-81ea-91b031c1963b"
+      ],
+      "scenes": [
+        "f2b3bf35-a7c5-4958-bd66-0f033075b936@d5a11"
+      ]
+    },
+    "dumpMaterials": true,
+    "legacyFbxImporter": true,
+    "materialDumpDir": "db://assets/Game/_Model/Materials_Sky"
+  }
+}

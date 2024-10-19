@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "0d53fe03-6d4f-4145-a116-ad0cc1c45bfc",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/framework3D/utils/calc.js"
+  }
+}

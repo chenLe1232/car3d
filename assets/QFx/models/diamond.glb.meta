@@ -1,0 +1,123 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9",
+  "files": [],
+  "subMetas": {
+    "27868": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@27868",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "27868",
+      "name": "diamond.mesh"
+    },
+    "42102": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@42102",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "42102",
+      "name": "diamond.prefab"
+    },
+    "9cabc": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@9cabc",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "9cabc",
+      "name": "diamond.image"
+    },
+    "e39f7": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@e39f7",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@9cabc"
+      },
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture"
+    },
+    "4a1f3": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "uuid": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@4a1f3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "4a1f3",
+      "name": "diamond.material"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "diamond",
+        "uri": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@9cabc"
+      }
+    ],
+    "redirect": "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@42102",
+    "assetFinder": {
+      "meshes": [
+        "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@27868"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@e39f7"
+      ],
+      "materials": [
+        "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@4a1f3"
+      ],
+      "scenes": [
+        "0c600ba5-a68e-4b06-8f37-6a6301af4cb9@42102"
+      ]
+    }
+  }
+}

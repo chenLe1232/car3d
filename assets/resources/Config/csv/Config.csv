@@ -1,0 +1,20 @@
+ID	Key	desc1	config_data(0:share,1:video,2:random,3:直接获得)	type	group	color(default, primary, secondary, success, warning, danger)
+id	Key	desc1	config_data	type	group	color
+string	string	string	string	string	number	string
+1	BannerAdWhiteList	显示 Banner 的View列表	UIHelp,UILevelup,UICheckIn,UIRevive,UISetting,UIEnd	string	2	primary
+2	max_video_watch	每个玩家每天能看多少个视频	100	number	3	
+3	Sync_User_Data_Time	多久上传一次数据	60	number	1	
+10	SOV_Revive_Game	视频复活	1	SOV2	6	
+11	SOV_End_x2	结算双倍	1	SOV2	7	
+12	SOV_Levelup_Claim	升级领取	1	SOV2	8	
+13	SOV_Sign_Double	签到双倍	1	SOV2	9	
+14	SOV_OfflineReward	离线双倍	1	SOV2	10	
+15	SOV_Unlock_Double	解锁双倍	1	SOV2	11	
+16	SOV_OutputSpeedup	加速双倍	1	SOV2	12	
+17	SOV_FreeGold	免费金币	1	SOV2	13	
+18	SOV_Airdrop	空投奖励	1	SOV2	14	
+19	SOV_End_x3	结算3倍	1	SOV2	14	
+20	SOV_Shop_Buy	商店购买	1	SOV2	15	
+						
+21	Revive_Banner_Delay	复活banner位移延时（s）	2	number	16	
+31	End_Banner_Delay	结算banner位移延时（s）	2	number	17	

@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "dd0af8b9-2286-4bb8-b4fd-50c85e9a1053",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/framework3D/extension/weak_net_game/SettingInfo.js"
+  }
+}

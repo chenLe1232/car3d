@@ -1,0 +1,18 @@
+{
+  "ver": "4.0.21",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "ed6bc171-484b-4136-85e2-c17413ac1bc9",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/framework3D/core/g.js.js",
+    "importAsPlugin": true,
+    "isPlugin": true,
+    "loadPluginInWeb": true,
+    "loadPluginInNative": true,
+    "loadPluginInEditor": true
+  }
+}

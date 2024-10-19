@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.Material",
+  "_name": "diamond.001",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "metallic": 0,
+      "roughness": 0.7416666746139526,
+      "mainTexture": {
+        "__uuid__": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@221a5"
+      }
+    }
+  ]
+}

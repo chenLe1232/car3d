@@ -1,0 +1,109 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac",
+  "files": [],
+  "subMetas": {
+    "d5799": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@d5799",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "d5799",
+      "name": "booster.mesh"
+    },
+    "2acfb": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@2acfb",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "2acfb",
+      "name": "boosterpad_0.image"
+    },
+    "e39f7": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@e39f7",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@2acfb"
+      },
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture"
+    },
+    "aa245": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@aa245",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "aa245",
+      "name": "booster2.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "boosterpad_0",
+        "uri": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@2acfb"
+      }
+    ],
+    "redirect": "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@aa245",
+    "assetFinder": {
+      "meshes": [
+        "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@d5799"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@e39f7"
+      ],
+      "materials": [
+        "e978eb5f-d432-4e51-9914-8d2be0000c24"
+      ],
+      "scenes": [
+        "e4ec5e39-0cab-4ab3-a90e-5f8a0d99ddac@aa245"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Game/_Model/Materials_booster2"
+  }
+}

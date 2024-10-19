@@ -1,0 +1,28 @@
+{
+  "name": "mergecar3d",
+  "type": "3d",
+  "uuid": "41de0e59-c5de-4cb3-bde3-6a31d2a12bae",
+  "version": "3.0.0",
+  "description": "Hello world new project template.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "csv-dts": "node tools/typing_csv.js",
+    "vm-dts": "node tools/typing_vm.js",
+    "tocsv": "node tools/tocsv.js",
+    "gen-enums": "node tools/genEnums.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:Ren.Wang/PizzaBoy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "progress": "^2.0.3",
+    "typings": "^2.1.1"
+  }
+}

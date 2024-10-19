@@ -1,0 +1,109 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6",
+  "files": [],
+  "subMetas": {
+    "27868": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@27868",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "27868",
+      "name": "diamond.mesh"
+    },
+    "42102": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@42102",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "42102",
+      "name": "diamond.prefab"
+    },
+    "9cabc": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@9cabc",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "9cabc",
+      "name": "diamond.image"
+    },
+    "e39f7": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@e39f7",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@9cabc"
+      },
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "diamond",
+        "uri": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@9cabc"
+      }
+    ],
+    "redirect": "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@42102",
+    "assetFinder": {
+      "meshes": [
+        "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@27868"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@e39f7"
+      ],
+      "materials": [
+        "d19601db-a604-4442-a23d-0e6bfe278b8a"
+      ],
+      "scenes": [
+        "f34f7e64-e959-4b5a-a4f4-e8067e1cb4b6@42102"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Game/_Model/Materials_diamond"
+  }
+}

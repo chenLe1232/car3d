@@ -1,0 +1,41 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "fe7224fe-fcdc-4e40-90a2-3bc0a73bf75e",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "fe7224fe-fcdc-4e40-90a2-3bc0a73bf75e@6c48a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "fe7224fe-fcdc-4e40-90a2-3bc0a73bf75e"
+      },
+      "displayName": "xulie_baozha011_4x4",
+      "id": "6c48a",
+      "name": "texture"
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "fe7224fe-fcdc-4e40-90a2-3bc0a73bf75e@6c48a",
+    "hasAlpha": true
+  }
+}

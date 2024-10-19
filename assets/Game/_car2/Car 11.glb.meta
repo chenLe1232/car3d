@@ -1,0 +1,339 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b",
+  "files": [],
+  "subMetas": {
+    "13985": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@13985",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "13985",
+      "name": "Car 11.prefab"
+    },
+    "35065": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@35065",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      },
+      "displayName": "",
+      "id": "35065",
+      "name": "Scene.072.mesh"
+    },
+    "c7f51": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@c7f51",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "c7f51",
+      "name": "Scene.069.mesh"
+    },
+    "9361c": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@9361c",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "9361c",
+      "name": "Scene.070.mesh"
+    },
+    "952c6": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@952c6",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "952c6",
+      "name": "Scene.071.mesh"
+    },
+    "8b899": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@8b899",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 4
+      },
+      "displayName": "",
+      "id": "8b899",
+      "name": "Scene.073.mesh"
+    },
+    "4db0e": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@4db0e",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 5
+      },
+      "displayName": "",
+      "id": "4db0e",
+      "name": "Scene.074.mesh"
+    },
+    "aa3da": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@aa3da",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "aa3da",
+      "name": "Car17.image"
+    },
+    "56cc0": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@56cc0",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "56cc0",
+      "name": "Car17Gear.image"
+    },
+    "dc072": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@dc072",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "dc072",
+      "name": "Car17Tires.image"
+    },
+    "3effa": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@3effa",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@aa3da"
+      },
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture"
+    },
+    "221a5": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@221a5",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@56cc0"
+      },
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture"
+    },
+    "0089c": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@0089c",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@dc072"
+      },
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture"
+    },
+    "9463d": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@9463d",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "9463d",
+      "name": "Car_Mat_17.material"
+    },
+    "b477b": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@b477b",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "b477b",
+      "name": "Gear_Mat_17.material"
+    },
+    "c3163": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "uuid": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@c3163",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "c3163",
+      "name": "Tire17.material"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Car17",
+        "uri": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@aa3da"
+      },
+      {
+        "name": "Car17Gear",
+        "uri": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@56cc0"
+      },
+      {
+        "name": "Car17Tires",
+        "uri": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@dc072"
+      }
+    ],
+    "redirect": "d05585e9-002b-4f70-ac36-f7ee6b96b08b@13985",
+    "assetFinder": {
+      "meshes": [
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@c7f51",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@9361c",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@952c6",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@35065",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@8b899",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@4db0e"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@3effa",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@221a5",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@0089c"
+      ],
+      "materials": [
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@9463d",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@b477b",
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@c3163"
+      ],
+      "scenes": [
+        "d05585e9-002b-4f70-ac36-f7ee6b96b08b@13985"
+      ]
+    }
+  }
+}

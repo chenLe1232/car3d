@@ -1,0 +1,64 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "boosterpad",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 0.5,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 0.1,
+    "_keys": [
+      [
+        0,
+        0.03333333333333333,
+        0.06666666666666667,
+        0.1
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "materials",
+          0
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            {
+              "__uuid__": "1ce91563-ff36-477b-8aeb-279309118947@6c48a"
+            },
+            {
+              "__uuid__": "8e9d753b-6172-4aa1-8cde-32509dd275a4@6c48a"
+            },
+            {
+              "__uuid__": "6554836c-6a4d-49cf-9392-5cd3347a5dd9@6c48a"
+            },
+            {
+              "__uuid__": "1ce91563-ff36-477b-8aeb-279309118947@6c48a"
+            }
+          ],
+          "easingMethods": {}
+        },
+        "valueAdapter": {
+          "__id__": 2
+        }
+      }
+    ],
+    "_commonTargets": []
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.MeshRenderer"
+  },
+  {
+    "__type__": "cc.animation.UniformProxyFactory",
+    "passIndex": 0,
+    "uniformName": "mainTexture"
+  }
+]

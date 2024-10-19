@@ -1,0 +1,110 @@
+{
+  "ver": "2.0.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "96206b24-6bd0-441a-99f6-d82e0854fac9",
+  "files": [],
+  "subMetas": {
+    "7cc68": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "96206b24-6bd0-441a-99f6-d82e0854fac9@7cc68",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "7cc68",
+      "name": "Park_Small_A__2_.mesh"
+    },
+    "fd73d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "96206b24-6bd0-441a-99f6-d82e0854fac9@fd73d",
+      "displayName": "",
+      "id": "fd73d",
+      "name": "DiffuseColor_Texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f17a": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "96206b24-6bd0-441a-99f6-d82e0854fac9@4f17a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "96206b24-6bd0-441a-99f6-d82e0854fac9@fd73d"
+      },
+      "displayName": "",
+      "id": "4f17a",
+      "name": "DiffuseColor_Texture.texture"
+    },
+    "aae16": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "96206b24-6bd0-441a-99f6-d82e0854fac9@aae16",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "aae16",
+      "name": "Park_Small_A.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "DiffuseColor_Texture",
+        "uri": "96206b24-6bd0-441a-99f6-d82e0854fac9@fd73d"
+      }
+    ],
+    "redirect": "96206b24-6bd0-441a-99f6-d82e0854fac9@aae16",
+    "assetFinder": {
+      "meshes": [
+        "96206b24-6bd0-441a-99f6-d82e0854fac9@7cc68"
+      ],
+      "skeletons": [],
+      "textures": [
+        "96206b24-6bd0-441a-99f6-d82e0854fac9@4f17a"
+      ],
+      "materials": [
+        "3037f248-1e11-48d1-8529-c0321d8c8150"
+      ],
+      "scenes": [
+        "96206b24-6bd0-441a-99f6-d82e0854fac9@aae16"
+      ]
+    },
+    "dumpMaterials": true,
+    "legacyFbxImporter": true,
+    "materialDumpDir": "db://assets/Game/_Model/env/Materials_Park_Small_A"
+  }
+}

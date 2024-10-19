@@ -1,0 +1,82 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "c050a77d-eaa0-4905-a0b8-250c274c3a2c",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "c050a77d-eaa0-4905-a0b8-250c274c3a2c@6c48a",
+      "displayName": "k_yellow",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c050a77d-eaa0-4905-a0b8-250c274c3a2c"
+      }
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "c050a77d-eaa0-4905-a0b8-250c274c3a2c@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 63,
+        "height": 77,
+        "rawWidth": 63,
+        "rawHeight": 77,
+        "borderTop": 12,
+        "borderBottom": 24,
+        "borderLeft": 14,
+        "borderRight": 12,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c050a77d-eaa0-4905-a0b8-250c274c3a2c@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "k_yellow",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "c050a77d-eaa0-4905-a0b8-250c274c3a2c@f9941",
+    "hasAlpha": true
+  }
+}

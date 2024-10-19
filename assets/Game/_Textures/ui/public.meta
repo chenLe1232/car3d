@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "22a31c55-ab0f-4a18-9589-9d3fde85bfe7",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isSubpackage": false,
+    "subpackageName": "ui_com",
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

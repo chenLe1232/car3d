@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "cbd509e1-cb23-4002-aa5d-553950a0ee8d",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isSubpackage": false,
+    "subpackageName": "ui_game",
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

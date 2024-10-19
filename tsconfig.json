@@ -1,0 +1,8 @@
+{
+    /* Base configuration. Do not edit this field. */
+    "extends": "./temp/tsconfig.cocos.json",
+    "compilerOptions": {
+        "allowJs": true
+    }
+    /* Add your custom configuration here. */
+}

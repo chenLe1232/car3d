@@ -1,0 +1,293 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd",
+  "files": [],
+  "subMetas": {
+    "93223": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@93223",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "93223",
+      "name": "Car27Gear.image"
+    },
+    "cbdf8": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@cbdf8",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "cbdf8",
+      "name": "Scene.104.mesh"
+    },
+    "48bb4": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@48bb4",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "48bb4",
+      "name": "Scene.105.mesh"
+    },
+    "85b8d": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@85b8d",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "85b8d",
+      "name": "Scene.106.mesh"
+    },
+    "00204": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@00204",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      },
+      "displayName": "",
+      "id": "00204",
+      "name": "Scene.107.mesh"
+    },
+    "4963b": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@4963b",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 4
+      },
+      "displayName": "",
+      "id": "4963b",
+      "name": "Scene.108.mesh"
+    },
+    "fde18": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@fde18",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 5
+      },
+      "displayName": "",
+      "id": "fde18",
+      "name": "Scene.109.mesh"
+    },
+    "e9d47": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@e9d47",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "e9d47",
+      "name": "Car27Tires.image"
+    },
+    "ed941": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@ed941",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "ed941",
+      "name": "Car27.image"
+    },
+    "3effa": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@3effa",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@93223"
+      },
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture"
+    },
+    "221a5": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@221a5",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@e9d47"
+      },
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture"
+    },
+    "0089c": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@0089c",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@ed941"
+      },
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture"
+    },
+    "bf84b": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@bf84b",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "bf84b",
+      "name": "Car 16.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Car27Gear",
+        "uri": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@93223"
+      },
+      {
+        "name": "Car27Tires",
+        "uri": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@e9d47"
+      },
+      {
+        "name": "Car27",
+        "uri": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@ed941"
+      }
+    ],
+    "redirect": "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@bf84b",
+    "assetFinder": {
+      "meshes": [
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@cbdf8",
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@48bb4",
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@85b8d",
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@00204",
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@4963b",
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@fde18"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@3effa",
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@221a5",
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@0089c"
+      ],
+      "materials": [
+        "f368f94a-6c92-4411-a143-07d6a3477417",
+        "69d09b0d-e74a-473f-89e8-c32404051b3f",
+        "b4ab8394-4060-4e93-b022-795db5358896"
+      ],
+      "scenes": [
+        "f328afb8-2f6a-4d69-9e96-6e5ed8cdbecd@bf84b"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Game/_car2/Materials_Car 16"
+  }
+}

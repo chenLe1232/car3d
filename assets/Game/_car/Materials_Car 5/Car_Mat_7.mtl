@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.Material",
+  "_name": "Car_Mat_7",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "metallic": 0,
+      "roughness": 0.5527864098548889,
+      "mainTexture": {
+        "__uuid__": "7faf486a-a9df-4f0f-9a8c-3dbc63c68a3d@221a5"
+      }
+    }
+  ]
+}

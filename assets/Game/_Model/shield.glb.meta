@@ -1,0 +1,109 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3c39c1c9-0de8-4b59-9593-787fc6dda22a",
+  "files": [],
+  "subMetas": {
+    "da6f3": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@da6f3",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "da6f3",
+      "name": "shield.mesh"
+    },
+    "2e2bb": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@2e2bb",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "2e2bb",
+      "name": "shield.image"
+    },
+    "e39f7": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@e39f7",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@2e2bb"
+      },
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture"
+    },
+    "6630c": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@6630c",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "6630c",
+      "name": "shield.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "shield",
+        "uri": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@2e2bb"
+      }
+    ],
+    "redirect": "3c39c1c9-0de8-4b59-9593-787fc6dda22a@6630c",
+    "assetFinder": {
+      "meshes": [
+        "3c39c1c9-0de8-4b59-9593-787fc6dda22a@da6f3"
+      ],
+      "skeletons": [],
+      "textures": [
+        "3c39c1c9-0de8-4b59-9593-787fc6dda22a@e39f7"
+      ],
+      "materials": [
+        "0ecf34e7-de76-4fe6-8ae2-997a97f6b029"
+      ],
+      "scenes": [
+        "3c39c1c9-0de8-4b59-9593-787fc6dda22a@6630c"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Game/_Model/Materials_shield"
+  }
+}

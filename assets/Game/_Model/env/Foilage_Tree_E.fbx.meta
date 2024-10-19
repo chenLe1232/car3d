@@ -1,0 +1,124 @@
+{
+  "ver": "2.0.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643",
+  "files": [],
+  "subMetas": {
+    "88446": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "uuid": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@88446",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "88446",
+      "name": "Trees.material"
+    },
+    "a4588": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@a4588",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "a4588",
+      "name": "Foilage_Tree_E.mesh"
+    },
+    "fd73d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@fd73d",
+      "displayName": "",
+      "id": "fd73d",
+      "name": "DiffuseColor_Texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f17a": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@4f17a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@fd73d"
+      },
+      "displayName": "",
+      "id": "4f17a",
+      "name": "DiffuseColor_Texture.texture"
+    },
+    "04898": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@04898",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "04898",
+      "name": "Foilage_Tree_E.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "DiffuseColor_Texture",
+        "uri": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@fd73d"
+      }
+    ],
+    "redirect": "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@04898",
+    "assetFinder": {
+      "meshes": [
+        "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@a4588"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@4f17a"
+      ],
+      "materials": [
+        "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@88446"
+      ],
+      "scenes": [
+        "8fd599ef-a4d3-46af-b0d8-8bb29eb4a643@04898"
+      ]
+    },
+    "legacyFbxImporter": true
+  }
+}

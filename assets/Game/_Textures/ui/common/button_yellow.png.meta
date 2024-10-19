@@ -1,0 +1,82 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e50a10a5-61ed-4ae0-a049-9af6c68784d7",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e50a10a5-61ed-4ae0-a049-9af6c68784d7@6c48a",
+      "displayName": "button_yellow",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e50a10a5-61ed-4ae0-a049-9af6c68784d7"
+      }
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "e50a10a5-61ed-4ae0-a049-9af6c68784d7@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 106,
+        "height": 98,
+        "rawWidth": 106,
+        "rawHeight": 98,
+        "borderTop": 21,
+        "borderBottom": 21,
+        "borderLeft": 21,
+        "borderRight": 21,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e50a10a5-61ed-4ae0-a049-9af6c68784d7@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "button_yellow",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "e50a10a5-61ed-4ae0-a049-9af6c68784d7@f9941",
+    "hasAlpha": true
+  }
+}

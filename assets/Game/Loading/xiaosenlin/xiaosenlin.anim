@@ -1,0 +1,66 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "xiaosenlin",
+  "_objFlags": 0,
+  "_native": "",
+  "sample": 20,
+  "speed": 0.5,
+  "wrapMode": 1,
+  "events": [],
+  "_duration": 1.15,
+  "_keys": [
+    [
+      0,
+      0.75,
+      0.9,
+      1.05,
+      1.15
+    ]
+  ],
+  "_stepness": 0,
+  "_curves": [
+    {
+      "modifiers": [
+        "scale"
+      ],
+      "data": {
+        "keys": 0,
+        "values": [
+          {
+            "__type__": "cc.Vec3",
+            "x": 3,
+            "y": 3,
+            "z": 3
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": 1.3,
+            "y": 1.3,
+            "z": 1.3
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": 0.9,
+            "y": 0.9,
+            "z": 0.9
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        ],
+        "easingMethods": {}
+      }
+    }
+  ],
+  "_commonTargets": [],
+  "_hash": 1493286453
+}

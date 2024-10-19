@@ -1,0 +1,18 @@
+{
+  "ver": "4.0.21",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "a4fe4e77-32fe-4bcf-af65-da8afc4351e0",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": true,
+    "moduleId": "project:///assets/_Scripts/Common/FizzX/QuadTree.js",
+    "isPlugin": true,
+    "loadPluginInWeb": true,
+    "loadPluginInNative": true,
+    "loadPluginInEditor": false
+  }
+}

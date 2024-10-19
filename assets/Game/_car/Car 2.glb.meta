@@ -1,0 +1,228 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b",
+  "files": [],
+  "subMetas": {
+    "ad7e4": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@ad7e4",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "ad7e4",
+      "name": "Scene.022.mesh"
+    },
+    "c206f": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@c206f",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "c206f",
+      "name": "Scene.023.mesh"
+    },
+    "9f12e": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@9f12e",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "9f12e",
+      "name": "Scene.024.mesh"
+    },
+    "0bf60": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@0bf60",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      },
+      "displayName": "",
+      "id": "0bf60",
+      "name": "Scene.025.mesh"
+    },
+    "94de7": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@94de7",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 4
+      },
+      "displayName": "",
+      "id": "94de7",
+      "name": "Scene.026.mesh"
+    },
+    "aa586": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@aa586",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "aa586",
+      "name": "Car02.image"
+    },
+    "c942b": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@c942b",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "c942b",
+      "name": "Tire01.image"
+    },
+    "3effa": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@3effa",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6bcfeb81-6e77-4d2c-8476-de765527124b@aa586"
+      },
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture"
+    },
+    "221a5": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@221a5",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6bcfeb81-6e77-4d2c-8476-de765527124b@c942b"
+      },
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture"
+    },
+    "f3946": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "6bcfeb81-6e77-4d2c-8476-de765527124b@f3946",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "f3946",
+      "name": "Car 2.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Car02",
+        "uri": "6bcfeb81-6e77-4d2c-8476-de765527124b@aa586"
+      },
+      {
+        "name": "Tire01",
+        "uri": "6bcfeb81-6e77-4d2c-8476-de765527124b@c942b"
+      }
+    ],
+    "redirect": "6bcfeb81-6e77-4d2c-8476-de765527124b@f3946",
+    "assetFinder": {
+      "meshes": [
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@ad7e4",
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@c206f",
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@9f12e",
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@0bf60",
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@94de7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@3effa",
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@221a5"
+      ],
+      "materials": [
+        "56d8e061-91b1-4872-9a07-240465b72e24",
+        "0042026f-c34d-4463-93a1-452ba2791d32"
+      ],
+      "scenes": [
+        "6bcfeb81-6e77-4d2c-8476-de765527124b@f3946"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Game/_car/Materials_Car 2"
+  }
+}

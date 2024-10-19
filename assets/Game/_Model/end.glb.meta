@@ -1,0 +1,127 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6e785926-2926-4120-81a6-2ff3af07a79d",
+  "files": [],
+  "subMetas": {
+    "df50a": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "6e785926-2926-4120-81a6-2ff3af07a79d@df50a",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "df50a",
+      "name": "enddoor.mesh"
+    },
+    "7c14a": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "uuid": "6e785926-2926-4120-81a6-2ff3af07a79d@7c14a",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "7c14a",
+      "name": "endpad.mesh"
+    },
+    "d453c": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "6e785926-2926-4120-81a6-2ff3af07a79d@d453c",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "d453c",
+      "name": "shengli.image"
+    },
+    "e39f7": {
+      "ver": "1.0.20",
+      "importer": "texture",
+      "uuid": "6e785926-2926-4120-81a6-2ff3af07a79d@e39f7",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6e785926-2926-4120-81a6-2ff3af07a79d@d453c"
+      },
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture"
+    },
+    "5eade": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "uuid": "6e785926-2926-4120-81a6-2ff3af07a79d@5eade",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "5eade",
+      "name": "end.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "shengli",
+        "uri": "6e785926-2926-4120-81a6-2ff3af07a79d@d453c"
+      }
+    ],
+    "redirect": "6e785926-2926-4120-81a6-2ff3af07a79d@5eade",
+    "assetFinder": {
+      "meshes": [
+        "6e785926-2926-4120-81a6-2ff3af07a79d@df50a",
+        "6e785926-2926-4120-81a6-2ff3af07a79d@7c14a"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6e785926-2926-4120-81a6-2ff3af07a79d@e39f7"
+      ],
+      "materials": [
+        "06ba6beb-b842-4bd7-b8bd-345ae4f94444"
+      ],
+      "scenes": [
+        "6e785926-2926-4120-81a6-2ff3af07a79d@5eade"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Game/_Model/Materials_end"
+  }
+}
