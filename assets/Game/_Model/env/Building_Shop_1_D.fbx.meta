@@ -5,6 +5,23 @@
   "uuid": "f8172259-364d-4c36-868e-e857f7f2bd38",
   "files": [],
   "subMetas": {
+    "66360": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f8172259-364d-4c36-868e-e857f7f2bd38@66360",
+      "displayName": "",
+      "id": "66360",
+      "name": "Building_Shop_1.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "b6a82": {
       "ver": "1.1.0",
       "importer": "gltf-mesh",
@@ -21,23 +38,6 @@
       "displayName": "",
       "id": "b6a82",
       "name": "Building_Shop_1_D.mesh"
-    },
-    "fd73d": {
-      "importer": "gltf-embeded-image",
-      "uuid": "f8172259-364d-4c36-868e-e857f7f2bd38@fd73d",
-      "displayName": "",
-      "id": "fd73d",
-      "name": "DiffuseColor_Texture.image",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".png",
-        ".json"
-      ],
-      "subMetas": {}
     },
     "4f17a": {
       "ver": "1.0.20",
@@ -57,7 +57,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f8172259-364d-4c36-868e-e857f7f2bd38@fd73d"
+        "imageUuidOrDatabaseUri": "f8172259-364d-4c36-868e-e857f7f2bd38@66360"
       },
       "displayName": "",
       "id": "4f17a",
@@ -99,8 +99,8 @@
   "userData": {
     "imageMetas": [
       {
-        "name": "DiffuseColor_Texture",
-        "uri": "f8172259-364d-4c36-868e-e857f7f2bd38@fd73d"
+        "name": "Building_Shop_1.png",
+        "uri": "f8172259-364d-4c36-868e-e857f7f2bd38@66360"
       }
     ],
     "redirect": "f8172259-364d-4c36-868e-e857f7f2bd38@b3be8",

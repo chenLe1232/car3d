@@ -38,12 +38,12 @@
       "id": "d4fba",
       "name": "Foilage_Tree_D__4_.mesh"
     },
-    "fd73d": {
+    "22e34": {
       "importer": "gltf-embeded-image",
-      "uuid": "b76430b1-0947-47df-9f95-b5c53f388103@fd73d",
+      "uuid": "b76430b1-0947-47df-9f95-b5c53f388103@22e34",
       "displayName": "",
-      "id": "fd73d",
-      "name": "DiffuseColor_Texture.image",
+      "id": "22e34",
+      "name": "Trees.png.image",
       "userData": {
         "gltfIndex": 0
       },
@@ -73,7 +73,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b76430b1-0947-47df-9f95-b5c53f388103@fd73d"
+        "imageUuidOrDatabaseUri": "b76430b1-0947-47df-9f95-b5c53f388103@22e34"
       },
       "displayName": "",
       "id": "4f17a",
@@ -99,8 +99,8 @@
   "userData": {
     "imageMetas": [
       {
-        "name": "DiffuseColor_Texture",
-        "uri": "b76430b1-0947-47df-9f95-b5c53f388103@fd73d"
+        "name": "Trees.png",
+        "uri": "b76430b1-0947-47df-9f95-b5c53f388103@22e34"
       }
     ],
     "redirect": "b76430b1-0947-47df-9f95-b5c53f388103@183e2",

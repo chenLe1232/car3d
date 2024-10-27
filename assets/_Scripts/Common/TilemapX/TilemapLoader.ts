@@ -1,56 +1,54 @@
-import { loader, JsonAsset, resources } from "cc"
-import Tilemap from "./Tilemap";
+import { loader, JsonAsset, resources } from 'cc';
+import Tilemap from './Tilemap';
 
 export interface TileLayerData {
-    data: number[];
-    height: number;
-    name: string;
-    opacity: number;
-    type: string;
-    visdible: string;
-    width: number;
-    x: number;
-    y: number;
+  data: number[];
+  height: number;
+  name: string;
+  opacity: number;
+  type: string;
+  visdible: string;
+  width: number;
+  x: number;
+  y: number;
 }
 export interface TilemapData {
-    width: number;
-    height: number;
-    layers: TileLayerData[];
-    tiledversion: string;
-    tileheight: number;
-    tilewidth: number;
+  width: number;
+  height: number;
+  layers: TileLayerData[];
+  tiledversion: string;
+  tileheight: number;
+  tilewidth: number;
 }
 
 export default class TilemapLoader {
+  static _cache: { [index: string]: TilemapData } = {};
 
-    static _cache: { [index: string]: TilemapData } = {}
+  public static get(name: string) {
+    return this._cache[name];
+  }
 
-    public static get(name: string) {
-        return this._cache[name]
+  static _load(name, json) {
+    let tilemap = this.get(name);
+    if (tilemap == null) {
+      tilemap = json;
+      // tilemap = json as TilemapData
+      this._cache[name] = tilemap;
     }
+    return tilemap;
+  }
 
-    static _load(name, json) {
-        let tilemap = this.get(name);
-        if (tilemap == null) {
-            tilemap = json;
-            // tilemap = json as TilemapData
-            this._cache[name] = tilemap
+  public static loadTilemap(path): Promise<TilemapData> {
+    return new Promise((resolve, reject) => {
+      resources.load(path, JsonAsset, (err, res: JsonAsset) => {
+        if (err) {
+          return reject(err);
         }
-        return tilemap
-    }
-
-    public static loadTilemap(path): Promise<TilemapData> {
-        return new Promise((resolve, reject) => {
-            resources.load(path, JsonAsset, (err, res: JsonAsset) => {
-                if (err) {
-                    return reject(err)
-                }
-                let tilemap = this._load(path, res.json)
-                resolve(tilemap);
-            })
-        })
-    }
-
+        let tilemap = this._load(path, res.json);
+        resolve(tilemap);
+      });
+    });
+  }
 }
 /**
  * { "height":10,

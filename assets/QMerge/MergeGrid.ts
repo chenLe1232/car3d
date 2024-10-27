@@ -1,192 +1,186 @@
-import { Component, LabelComponent, Node, _decorator } from "cc";
-import MergeEntity from "./MergeEntity";
-import { evt } from "../framework3D/core/EventManager";
-import QMerge from "./QMerge";
-import MergeOutput from "./MergeOutput";
-import { Signal } from "../framework3D/core/Signal";
+import { Component, LabelComponent, Node, _decorator } from 'cc';
+import MergeEntity from './MergeEntity';
+import { evt } from '../framework3D/core/EventManager';
+import QMerge from './QMerge';
+import MergeOutput from './MergeOutput';
+import { Signal } from '../framework3D/core/Signal';
 
 const { ccclass, property, menu } = _decorator;
 
 @ccclass
 export default class MergeGrid extends Component {
-    @property()
-    index: number = 0
+  @property()
+  index: number = 0;
 
-    private _entity: MergeEntity = null;
+  private _entity: MergeEntity = null;
 
-    private _isUncover: boolean = true;
+  private _isUncover: boolean = true;
 
-    private _cover_node: Node = null;
+  private _cover_node: Node = null;
 
-    private lvLabel: LabelComponent = null
-    private lvLabelContainer: Node = null;
+  private lvLabel: LabelComponent = null;
+  private lvLabelContainer: Node = null;
 
-    @property(Node)
-    highlight: Node = null;
+  @property(Node)
+  highlight: Node = null;
 
-    @property
-    locked: boolean = false;
+  @property
+  locked: boolean = false;
 
-    statusChangeSignal: Signal = new Signal();
+  statusChangeSignal: Signal = new Signal();
 
-    private _output: MergeOutput = null;
+  private _output: MergeOutput = null;
 
-    public onDestroy() {
-        this.statusChangeSignal.clear();
+  public onDestroy() {
+    this.statusChangeSignal.clear();
+  }
+
+  public get cover_node() {
+    return this._cover_node;
+  }
+
+  get canDrag() {
+    return !this.locked && this._isUncover;
+  }
+
+  get center() {
+    return this.node.position;
+  }
+
+  get output() {
+    return this._output;
+  }
+
+  set output(v) {
+    if (v != null) {
+      this._output = v;
+      v.grid = this;
     }
+  }
 
-    public get cover_node() {
-        return this._cover_node;
+  public set entity(value: MergeEntity) {
+    let old = this._entity;
+    this._entity = value;
+    if (value) {
+      if (old == null) {
+        //changed
+        this.statusChangeSignal.fire('add');
+        evt.emit(QMerge.Event.GridChanged, 'add', this);
+      } else if (value.id != old.id) {
+        this.statusChangeSignal.fire('change');
+        evt.emit(QMerge.Event.GridChanged, 'change', this);
+      }
+      this.updateLevel(value.id);
+      this.showLv();
+    } else {
+      this.statusChangeSignal.fire('remove');
+      evt.emit(QMerge.Event.GridChanged, 'remove', this);
+      this.hideLv();
     }
+  }
 
-    get canDrag() {
-        return !this.locked && this._isUncover
-    }
+  public get entity() {
+    return this._entity;
+  }
 
-    get center() {
-        return this.node.position;
-    }
+  public get isLock(): boolean {
+    return this.locked;
+  }
+  public set isLock(value: boolean) {
+    this.locked = value;
+    this.node.active = !value;
+  }
 
-    get output() {
-        return this._output;
-    }
+  public get isUncover(): boolean {
+    return this._isUncover;
+  }
+  public set isUncover(value: boolean) {
+    this._isUncover = value;
+  }
 
-    set output(v) {
-        if (v != null) {
-            this._output = v;
-            v.grid = this;
-        }
-    }
+  showHighlight() {
+    if (this.highlight) this.highlight.active = true;
+  }
 
-    public set entity(value: MergeEntity) {
-        let old = this._entity;
-        this._entity = value;
-        if (value) {
-            if (old == null) {
-                //changed 
-                this.statusChangeSignal.fire('add')
-                evt.emit(QMerge.Event.GridChanged, 'add', this)
-            } else if (value.id != old.id) {
-                this.statusChangeSignal.fire('change')
-                evt.emit(QMerge.Event.GridChanged, 'change', this)
-            }
-            this.updateLevel(value.id)
-            this.showLv()
-        }
-        else {
-            this.statusChangeSignal.fire("remove")
-            evt.emit(QMerge.Event.GridChanged, 'remove', this);
-            this.hideLv();
-        }
-    }
+  hideHighlight() {
+    if (this.highlight) this.highlight.active = false;
+  }
 
-    public get entity() {
-        return this._entity;
+  /** mark this grid is covered  */
+  cover(coverNode?: Node) {
+    this.isUncover = false;
+    this._cover_node = coverNode;
+    //hide entity sprite
+    if (cc.isValid(this._entity)) {
+      this._entity.hide();
     }
+    this.hideLv();
+  }
 
-    public get isLock(): boolean {
-        return this.locked;
+  /**mark this grid uncovered */
+  uncover() {
+    this.isUncover = true;
+    if (cc.isValid(this._entity)) {
+      this._entity.show();
     }
-    public set isLock(value: boolean) {
-        this.locked = value;
-        this.node.active = !value;
-    }
+    this._cover_node = null;
+    this.showLv();
 
-    public get isUncover(): boolean {
-        return this._isUncover;
-    }
-    public set isUncover(value: boolean) {
-        this._isUncover = value;
-    }
+    /** should removed  */
+    // this._cover_node.removeFromParent();
+  }
 
-    showHighlight() {
-        if (this.highlight) this.highlight.active = true
-    }
+  /** mark this grid locked */
+  lock() {
+    this.isLock = true;
+  }
 
+  /** mark this grid unlocked */
+  unlock() {
+    this.isLock = false;
+  }
 
-    hideHighlight() {
-        if (this.highlight) this.highlight.active = false
-    }
+  updateLevel(lv) {
+    if (this.lvLabel) this.lvLabel.string = lv;
+  }
 
-    /** mark this grid is covered  */
-    cover(coverNode?: Node) {
-        this.isUncover = false;
-        this._cover_node = coverNode
-        //hide entity sprite
-        if (cc.isValid(this._entity)) {
-            this._entity.hide();
-        }
-        this.hideLv()
+  onLoad() {
+    this.lvLabel = this.getComponentInChildren(LabelComponent);
+    if (this.lvLabel) {
+      if (this.lvLabel.node.parent != this.node) {
+        this.lvLabelContainer = this.lvLabel.node.parent;
+      } else {
+        this.lvLabelContainer = this.lvLabel.node;
+      }
     }
+    this.hideLv();
+    this.hideHighlight();
+  }
 
-    /**mark this grid uncovered */
-    uncover() {
-        this.isUncover = true;
-        if (cc.isValid(this._entity)) {
-            this._entity.show()
-        }
-        this._cover_node = null;
-        this.showLv()
+  start() {
+    this.node.active = !this.locked;
+  }
 
-        /** should removed  */
-        // this._cover_node.removeFromParent();
-    }
+  onEnable() {
+    this.schedule(this.checkState, 3);
+  }
+  onDisable() {
+    this.unschedule(this.checkState);
+  }
 
-    /** mark this grid locked */
-    lock() {
-        this.isLock = true
-    }
+  showLv() {
+    if (this.lvLabelContainer) this.lvLabelContainer.active = true;
+  }
 
-    /** mark this grid unlocked */
-    unlock() {
-        this.isLock = false
-    }
+  hideLv() {
+    if (this.lvLabelContainer) this.lvLabelContainer.active = false;
+  }
 
-    updateLevel(lv) {
-        if (this.lvLabel)
-            this.lvLabel.string = lv;
+  checkState() {
+    if (this.entity == null || !this.isUncover) {
+      this.hideLv();
+    } else {
+      this.showLv();
     }
-
-    onLoad() {
-        this.lvLabel = this.getComponentInChildren(LabelComponent);
-        if (this.lvLabel) {
-            if (this.lvLabel.node.parent != this.node) {
-                this.lvLabelContainer = this.lvLabel.node.parent
-            } else {
-                this.lvLabelContainer = this.lvLabel.node;
-            }
-        }
-        this.hideLv()
-        this.hideHighlight();
-    }
-
-    start() {
-        this.node.active = !this.locked
-    }
-
-    onEnable() {
-        this.schedule(this.checkState, 3)
-    }
-    onDisable() {
-        this.unschedule(this.checkState)
-    }
-
-    showLv() {
-        if (this.lvLabelContainer)
-            this.lvLabelContainer.active = true;
-    }
-
-    hideLv() {
-        if (this.lvLabelContainer)
-            this.lvLabelContainer.active = false;
-    }
-
-    checkState() {
-        if (this.entity == null || !this.isUncover) {
-            this.hideLv()
-        }
-        else {
-            this.showLv()
-        }
-    }
+  }
 }

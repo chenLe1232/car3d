@@ -1,50 +1,45 @@
-
-import { _decorator, Component, Node } from "cc";
-import DataCenter from "../core/DataCenter";
-import { evt } from "../core/EventManager";
+import { _decorator, Component, Node } from 'cc';
+import DataCenter from '../core/DataCenter';
+import { evt } from '../core/EventManager';
 const { ccclass, property } = _decorator;
 
 @ccclass
 export default class DCUI extends Component {
+  @property()
+  dataBind: string = '';
+  onLoad() {}
 
-    @property()
-    dataBind: string = "";
-    onLoad() {
-    }
+  setDCKey(k) {
+    this.dataBind = k;
+    this.setListener();
+  }
 
-    setDCKey(k) {
-        this.dataBind = k;
-        this.setListener()
-    }
+  private setListener() {
+    DataCenter.off(this.dataBind, this.dataChanged, this);
+    DataCenter.on(this.dataBind, this.dataChanged, this);
+  }
 
+  onValueChanged(v) {}
 
-    private setListener() {
-        DataCenter.off(this.dataBind, this.dataChanged, this)
-        DataCenter.on(this.dataBind, this.dataChanged, this)
-    }
+  setDCValue(v) {
+    DataCenter.set(this.dataBind, v);
+  }
 
-    onValueChanged(v) {
-    }
+  dataChanged(v, old): any {
+    this.onValueChanged(v);
+  }
 
-    setDCValue(v) {
-        DataCenter.set(this.dataBind, v);
-    }
+  onEnable() {
+    this.setListener();
+    this.onValueChanged(DataCenter.get(this.dataBind));
+  }
 
-    dataChanged(v, old): any {
-        this.onValueChanged(v);
-    }
+  onDisable() {
+    DataCenter.off(this.dataBind, this.dataChanged, this);
+  }
 
-    onEnable() {
-        this.setListener()
-        this.onValueChanged(DataCenter.get(this.dataBind));
-    }
-
-    onDisable() {
-        DataCenter.off(this.dataBind, this.dataChanged, this)
-    }
-
-    onDestroy() {
-        // DataCenter.off(this)
-        evt.off(this);
-    }
+  onDestroy() {
+    // DataCenter.off(this)
+    evt.off(this);
+  }
 }

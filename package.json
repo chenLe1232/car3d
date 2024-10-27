@@ -13,7 +13,8 @@
     "csv-dts": "node tools/typing_csv.js",
     "vm-dts": "node tools/typing_vm.js",
     "tocsv": "node tools/tocsv.js",
-    "gen-enums": "node tools/genEnums.js"
+    "gen-enums": "node tools/genEnums.js",
+    "format": "prettier --write \"**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "dependencies": {
     "progress": "^2.0.3",
     "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.7"
   }
 }
