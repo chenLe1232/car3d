@@ -130,7 +130,7 @@ export default class GameHud extends mvc_View {
   ///////////////////////////[fsm]////////////////////////////
 
   losetime() {
-    PlayerInfo.timeLeft -= 1;
+    PlayerInfo.timeLeft = 2;
     if (PlayerInfo.timeLeft <= 5) {
       this.countdown_hud.play();
     }

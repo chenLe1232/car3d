@@ -22,12 +22,12 @@
       "id": "7cc68",
       "name": "Park_Small_A__2_.mesh"
     },
-    "2a70b": {
+    "fd73d": {
       "importer": "gltf-embeded-image",
-      "uuid": "96206b24-6bd0-441a-99f6-d82e0854fac9@2a70b",
+      "uuid": "96206b24-6bd0-441a-99f6-d82e0854fac9@fd73d",
       "displayName": "",
-      "id": "2a70b",
-      "name": "CityProps_1.png.image",
+      "id": "fd73d",
+      "name": "DiffuseColor_Texture.image",
       "userData": {
         "gltfIndex": 0
       },
@@ -57,7 +57,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "96206b24-6bd0-441a-99f6-d82e0854fac9@2a70b"
+        "imageUuidOrDatabaseUri": "96206b24-6bd0-441a-99f6-d82e0854fac9@fd73d"
       },
       "displayName": "",
       "id": "4f17a",
@@ -83,8 +83,8 @@
   "userData": {
     "imageMetas": [
       {
-        "name": "CityProps_1.png",
-        "uri": "96206b24-6bd0-441a-99f6-d82e0854fac9@2a70b"
+        "name": "DiffuseColor_Texture",
+        "uri": "96206b24-6bd0-441a-99f6-d82e0854fac9@fd73d"
       }
     ],
     "redirect": "96206b24-6bd0-441a-99f6-d82e0854fac9@aae16",

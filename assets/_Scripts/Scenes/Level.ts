@@ -316,6 +316,8 @@ export default class Level extends Component {
     if (this.car.node.position.z > this.levelLoader.endLinePos.z) {
       this.fsm.changeState(State.Win);
     }
+    vm.show('UI/UIRevive');
+    PlayerInfo.revived = 1;
     //失败判断
     if (PlayerInfo.timeLeft <= 0) {
       this.fsm.changeState(State.Lose);

@@ -22,12 +22,12 @@
       "id": "581a1",
       "name": "item.mesh"
     },
-    "f8654": {
+    "fd73d": {
       "importer": "gltf-embeded-image",
-      "uuid": "cc48b552-fc22-4fa9-8d2e-165dc1c3494a@f8654",
+      "uuid": "cc48b552-fc22-4fa9-8d2e-165dc1c3494a@fd73d",
       "displayName": "",
-      "id": "f8654",
-      "name": "jinbitttu.png.image",
+      "id": "fd73d",
+      "name": "DiffuseColor_Texture.image",
       "userData": {
         "gltfIndex": 0
       },
@@ -57,7 +57,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "cc48b552-fc22-4fa9-8d2e-165dc1c3494a@f8654"
+        "imageUuidOrDatabaseUri": "cc48b552-fc22-4fa9-8d2e-165dc1c3494a@fd73d"
       },
       "displayName": "",
       "id": "4f17a",
@@ -99,8 +99,8 @@
   "userData": {
     "imageMetas": [
       {
-        "name": "jinbitttu.png",
-        "uri": "cc48b552-fc22-4fa9-8d2e-165dc1c3494a@f8654"
+        "name": "DiffuseColor_Texture",
+        "uri": "cc48b552-fc22-4fa9-8d2e-165dc1c3494a@fd73d"
       }
     ],
     "redirect": "cc48b552-fc22-4fa9-8d2e-165dc1c3494a@649f0",
